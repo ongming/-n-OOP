@@ -1,0 +1,44 @@
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Car-Parking-Management-System sourse.exe.config
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Car-Parking-Management-System sourse.exe
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Car-Parking-Management-System sourse.pdb
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.csproj.AssemblyReference.cache
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Login.resources
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Properties.Resources.resources
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.csproj.GenerateResource.cache
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.csproj.CoreCompileInputs.cache
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.exe
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Parking-Management-System sourse.pdb
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Bunifu.Licensing.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Bunifu.UI.WinForms.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Newtonsoft.Json.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\RestSharp.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Buffers.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.CodeDom.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Memory.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Numerics.Vectors.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Encodings.Web.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Json.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.ValueTuple.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Bunifu.UI.WinForms.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\Newtonsoft.Json.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\RestSharp.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Buffers.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.CodeDom.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Memory.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Numerics.Vectors.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Encodings.Web.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Text.Json.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\System.ValueTuple.xml
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car-Park.32FD6A5A.Up2Date
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\MetroFramework.Design.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\MetroFramework.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\bin\Debug\MetroFramework.Fonts.dll
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Register.resources
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Manager_Form.resources
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Customer_Form.resources
