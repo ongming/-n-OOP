@@ -1,27 +1,17 @@
-3
-1
-Phan
-Tuan
-18
-099999999
-tuanphan
-123
- 
 2
+1
 Vu
 Nam
-21
-088888888
+19
+099999999
 namvu
-123
- 
-3
+123456
+Request Parking Space ID:VIP001
+2
 Vi
 Ky
-23
-077777777
+21
+088888888
 kyvi
 123
- 
-
- 
+no request

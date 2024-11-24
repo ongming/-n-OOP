@@ -3,18 +3,22 @@ COM001
 
 Empty
 30$/month
+
 VIP001
-
-
-Empty
-60$/month
+72H-99999
+Lambogini
+Wait...
+65$/month
+Wait...
 COM002
 
 
 Empty
 25$/month
+
 VIP002
 
 
 Empty
 65$/month
+

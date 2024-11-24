@@ -14,7 +14,7 @@ namespace Car_Parking_Management_System_sourse
         private string phonenumber;
         private string password;
         private string username;
-        public Person(string id,string lastname, string firstname, int age, string phonenumber, string username, string password)
+        public Person(string id,string firstname, string lastname, int age, string phonenumber, string username, string password)
         {
             this.id = id;
             this.firstname = firstname;
@@ -31,6 +31,6 @@ namespace Car_Parking_Management_System_sourse
         public string Phonenumber { get { return phonenumber; } set { phonenumber = value; } }
         public string Password { get { return password; } set { password = value; } }
         public string Username { get { return username; } set { username = value; } }
-        public abstract void addID();
+        public abstract void addID(string id);
     }
 }

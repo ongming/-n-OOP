@@ -12,9 +12,15 @@ namespace Car_Parking_Management_System_sourse
 {
     public partial class Attendant__Form : Form
     {
-        public Attendant__Form()
+        List<Customer> customers;
+        public Attendant__Form(string name,List<Customer> customers)
         {
             InitializeComponent();
+            lbname.Text = name;
+        }
+        public void showData()
+        {
+
         }
     }
 }

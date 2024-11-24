@@ -74,6 +74,7 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(796, 589);
             this.tabControl1.TabIndex = 0;
+            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
             // tabPage3
             // 
@@ -147,7 +148,8 @@
             this.comboBoxEmptyorHired.FormattingEnabled = true;
             this.comboBoxEmptyorHired.Items.AddRange(new object[] {
             "Empty",
-            "Hired"});
+            "Hired",
+            "Wait..."});
             this.comboBoxEmptyorHired.Location = new System.Drawing.Point(271, 81);
             this.comboBoxEmptyorHired.Name = "comboBoxEmptyorHired";
             this.comboBoxEmptyorHired.Size = new System.Drawing.Size(88, 24);

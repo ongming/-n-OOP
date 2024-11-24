@@ -19,11 +19,12 @@ namespace Car_Parking_Management_System_sourse
         {
             InitializeComponent();
             this.parking = parking;
+            dataGridViewShowParkingSpace.DataSource = null;
             dataGridViewShowParkingSpace.DataSource = parking;
         }
         public void writeData()
         {
-            using (StreamWriter sw = new StreamWriter("ParkingSpace.txt"))
+            using (StreamWriter sw = new StreamWriter  ("ParkingSpace.txt"))
             {
                 for (int i = 0; i < parking.Count; i++)
                 {
@@ -32,6 +33,7 @@ namespace Car_Parking_Management_System_sourse
                     sw.WriteLine(parking[i].Name_car);
                     sw.WriteLine(parking[i].Status);
                     sw.WriteLine(parking[i].Cost);
+                    sw.WriteLine(parking[i].Ticketseri);
                 }
             }
         }
@@ -52,7 +54,7 @@ namespace Car_Parking_Management_System_sourse
                         return;
                     }
                 }
-                this.parking.Add(new ParkingSpace($"COM{txtIDParkingSpaceManager.Text}", "", "", "Empty", $"{txtCost.Text}$/month"));
+                this.parking.Add(new ParkingSpace($"COM{txtIDParkingSpaceManager.Text}", "", "", "Empty", $"{txtCost.Text}$/month",""));
             }
             else
             {
@@ -64,7 +66,7 @@ namespace Car_Parking_Management_System_sourse
                         return;
                     }
                 }
-                this.parking.Add(new ParkingSpace($"VIP{txtIDParkingSpaceManager.Text}", "", "", "Empty", $"{txtCost.Text}$/month"));
+                this.parking.Add(new ParkingSpace($"VIP{txtIDParkingSpaceManager.Text}", "", "", "Empty", $"{txtCost.Text}$/month",""));
             }
             writeData();
             dataGridViewShowParkingSpace.DataSource = null;
@@ -85,6 +87,7 @@ namespace Car_Parking_Management_System_sourse
         }
         private void txtSearchManager_TextChanged(object sender, EventArgs e)
         {
+            
             //Câu lệnh này dùng linq để lọc danh sách theo thứ mình nhập vào where là câu lệnh lọc danh sách có ĐK trong nó p là tham chiếu tới đối tượng trong list nếu đối tượng nào có txtSearcManafer thì sẽ dược xuất thành Lít và xuất ra datagridview
             dataGridViewShowParkingSpace.DataSource = this.parking.Where(p => p.Id_carparking.Contains(txtSearchManager.Text)).ToList();
         }
@@ -139,6 +142,11 @@ namespace Car_Parking_Management_System_sourse
                 dataGridViewShowParkingSpace.DataSource = this.parking;
                 MessageBox.Show("Edit complete!", "System");
             }           
+        }
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -11,8 +11,8 @@ namespace Car_Parking_Management_System_sourse
         {
             
         }
-        public override void addID()
-        {
+        public override void addID(string id)
+        {   
             throw new NotImplementedException();
         }
     }

@@ -43,14 +43,14 @@ namespace Car_Parking_Management_System_sourse
                     swriter.WriteLine("");
                 }
                 count++;
-                swriter.WriteLine(count);  
+                swriter.WriteLine(count);
                 swriter.WriteLine(firstname);
                 swriter.WriteLine(lastname);
                 swriter.WriteLine(age);
                 swriter.WriteLine(phonenumber);
                 swriter.WriteLine(user);
                 swriter.WriteLine(pass);
-                swriter.WriteLine(" ");
+                swriter.WriteLine("no request");
                 swriter.Flush();
             }
             string[] lines = File.ReadAllLines("Customer.txt");

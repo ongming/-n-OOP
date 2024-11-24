@@ -39,6 +39,7 @@ namespace Car_Parking_Management_System_sourse
         {
             List<ParkingSpace> parkingSpaces = new List<ParkingSpace>();
             List<Customer> customerList = new List<Customer>();
+            List<Attendant> attendants = new List<Attendant>();
             bool loginSucces = false;
             string username = txtUserLogin.Text;
             string password = txtPassLogin.Text;
@@ -48,6 +49,7 @@ namespace Car_Parking_Management_System_sourse
                 while (!pl.EndOfStream)
                 {
                     parkingSpaces.Add(new ParkingSpace(pl.ReadLine(),
+                                                       pl.ReadLine(),
                                                        pl.ReadLine(),
                                                        pl.ReadLine(),
                                                        pl.ReadLine(),
@@ -69,6 +71,19 @@ namespace Car_Parking_Management_System_sourse
                                                   cl.ReadLine(),
                                                   cl.ReadLine(),
                                                   cl.ReadLine()));
+                }
+            }
+            using (StreamReader al =new StreamReader("Attendant.txt"))
+            {
+                while (!al.EndOfStream)
+                {
+                    attendants.Add(new Attendant(al.ReadLine(),
+                                                 al.ReadLine(),
+                                                 al.ReadLine(),
+                                                 Convert.ToInt32(al.ReadLine()),
+                                                 al.ReadLine(),
+                                                 al.ReadLine(),
+                                                 al.ReadLine()));
                 }
             }
             if (comboPosition.SelectedIndex == -1)
@@ -108,6 +123,22 @@ namespace Car_Parking_Management_System_sourse
                     }
                 }
             }
+            if (comboPosition.SelectedIndex == 1)
+            { 
+                for(int i = 0;i < attendants.Count; i++)
+                {
+                    if(username==attendants[i].Username && password == attendants[i].Password)
+                    {
+                        MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        Attendant__Form form = new Attendant__Form(attendants[i].Lastname + " " + attendants[i].Firstname,customerList);
+                        this.Hide();
+                        form.ShowDialog();
+                        this.Close();
+                        loginSucces = true;
+                        break;
+                    }
+                }
+            }
             if (comboPosition.SelectedIndex == 2)
             {   
                 for (int i=0;i< customerList.Count; i++)
@@ -116,7 +147,7 @@ namespace Car_Parking_Management_System_sourse
                     {
                         string name = $"{customerList[i].Firstname}{" "}{customerList[i].Lastname}";
                         MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        Customer_Form newForm = new Customer_Form(name, parkingSpaces);
+                        Customer_Form newForm = new Customer_Form(name, customerList[i].Id, parkingSpaces,customerList);
                         this.Hide();
                         newForm.ShowDialog();
                         this.Close();

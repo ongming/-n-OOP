@@ -42,3 +42,4 @@ D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Park
 D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Register.resources
 D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Manager_Form.resources
 D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Customer_Form.resources
+D:\Học Tập Real\Lập Trình Hướng đối tượng\Đồ án Pro\Car-Parking-Management-System sourse\Car-Parking-Management-System sourse\obj\Debug\Car_Parking_Management_System_sourse.Attendant__Form.resources
