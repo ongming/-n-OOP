@@ -10,33 +10,39 @@ VIP001
 Empty
 60$/month
 
-VIP002
-68Y-86868
-Future
-Wait...
-65$/month
-Wait...
 COM002
-
-
-Empty
-25$/month
-
-COM003
 
 
 Empty
 35$/month
 
+VIP002
+72H-99999
+Lambogini
+Hired
+70$/month
+QMTL5273
+COM003
+72E-55555
+Future
+Hired
+30$/month
+QMTL3915
+VIP003
+
+
+Empty
+65$/month
+
 COM004
 
 
 Empty
-30$/month
+15$/month
 
 VIP004
-72H-99999
-lambogini
-Wait...
-75$/month
-Wait...
+
+
+Empty
+55$/month
+

@@ -47,19 +47,8 @@ namespace Car_Parking_Management_System_sourse
         }
         public void writeData()
         {
+            ParkingSpace.writeparkingdata(this.parkingSpaces);
             string count;
-            using (StreamWriter sw = new StreamWriter("ParkingSpace.txt"))
-            {
-                for (int i = 0; i < parkingSpaces.Count; i++)
-                {
-                    sw.WriteLine(parkingSpaces[i].Id_carparking);
-                    sw.WriteLine(parkingSpaces[i].Numberplate);
-                    sw.WriteLine(parkingSpaces[i].Name_car);
-                    sw.WriteLine(parkingSpaces[i].Status);
-                    sw.WriteLine(parkingSpaces[i].Cost);
-                    sw.WriteLine(parkingSpaces[i].Ticketseri);
-                }
-            }
             using (StreamReader sr=new StreamReader("Customer.txt"))
             {
                 count=sr.ReadLine();
