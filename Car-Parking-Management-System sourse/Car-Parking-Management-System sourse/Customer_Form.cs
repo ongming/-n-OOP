@@ -24,7 +24,7 @@ namespace Car_Parking_Management_System_sourse
             this.id = id;
             InitializeComponent();
             lbname.Text = name;
-            //hellod đ
+            //hellod đg
             // Tắt tự động tạo cột
             dataGridviewParkingSpace.AutoGenerateColumns = false;
             DataGridViewTextBoxColumn idColumn = new DataGridViewTextBoxColumn();
