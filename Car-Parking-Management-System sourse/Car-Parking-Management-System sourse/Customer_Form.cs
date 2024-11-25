@@ -64,22 +64,16 @@ namespace Car_Parking_Management_System_sourse
             {
                 count=sr.ReadLine();
             }
-
-            using (StreamWriter sw= new StreamWriter("Customer.txt"))
+            using (StreamWriter swriter = new StreamWriter("Customer.txt"))
             {
-                sw.WriteLine(count);
-                for (int i = 0; i < customers.Count; i++)
-                {
-                    sw.WriteLine(customers[i].Id);
-                    sw.WriteLine(customers[i].Firstname);
-                    sw.WriteLine(customers[i].Lastname);
-                    sw.WriteLine(customers[i].Age);
-                    sw.WriteLine(customers[i].Phonenumber);
-                    sw.WriteLine(customers[i].Username);
-                    sw.WriteLine(customers[i].Password);
-                    sw.WriteLine(customers[i].Ticketseri);
-                }
+                swriter.WriteLine(count);
+                swriter.Flush();
             }
+            for (int i = 0; i < customers.Count; i++)
+            {
+                customers[i].WriteInfo();
+            }
+
         }
         private void btnSignOut_Click(object sender, EventArgs e)
         {

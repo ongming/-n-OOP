@@ -35,6 +35,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtReasonDeny = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnRandom = new System.Windows.Forms.Button();
+            this.txtTicketseri = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.btnAccept = new System.Windows.Forms.Button();
             this.txtIDCustomer = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -48,7 +51,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewReceiveCar = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lbname = new System.Windows.Forms.Label();
@@ -61,7 +64,7 @@
             this.tabPage2.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewReceiveCar)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -129,6 +132,9 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnRandom);
+            this.groupBox1.Controls.Add(this.txtTicketseri);
+            this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.btnAccept);
             this.groupBox1.Controls.Add(this.txtIDCustomer);
             this.groupBox1.Controls.Add(this.label3);
@@ -139,14 +145,41 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Accept Request:";
             // 
+            // btnRandom
+            // 
+            this.btnRandom.Location = new System.Drawing.Point(167, 122);
+            this.btnRandom.Name = "btnRandom";
+            this.btnRandom.Size = new System.Drawing.Size(75, 28);
+            this.btnRandom.TabIndex = 5;
+            this.btnRandom.Text = "Random";
+            this.btnRandom.UseVisualStyleBackColor = true;
+            this.btnRandom.Click += new System.EventHandler(this.btnRandom_Click);
+            // 
+            // txtTicketseri
+            // 
+            this.txtTicketseri.Location = new System.Drawing.Point(199, 74);
+            this.txtTicketseri.Name = "txtTicketseri";
+            this.txtTicketseri.Size = new System.Drawing.Size(56, 22);
+            this.txtTicketseri.TabIndex = 4;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(23, 77);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(163, 16);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "Create Ticket Seri:   QMTL";
+            // 
             // btnAccept
             // 
-            this.btnAccept.Location = new System.Drawing.Point(99, 79);
+            this.btnAccept.Location = new System.Drawing.Point(45, 122);
             this.btnAccept.Name = "btnAccept";
             this.btnAccept.Size = new System.Drawing.Size(75, 28);
             this.btnAccept.TabIndex = 2;
             this.btnAccept.Text = "Accept";
             this.btnAccept.UseVisualStyleBackColor = true;
+            this.btnAccept.Click += new System.EventHandler(this.btnAccept_Click);
             // 
             // txtIDCustomer
             // 
@@ -160,9 +193,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(23, 43);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(98, 16);
+            this.label3.Size = new System.Drawing.Size(97, 16);
             this.label3.TabIndex = 0;
-            this.label3.Text = "ID of Cuatomer:";
+            this.label3.Text = "ID of Customer:";
             // 
             // dataGridViewParkingCar
             // 
@@ -178,7 +211,7 @@
             // 
             this.tabPage2.Controls.Add(this.groupBox4);
             this.tabPage2.Controls.Add(this.groupBox3);
-            this.tabPage2.Controls.Add(this.dataGridView2);
+            this.tabPage2.Controls.Add(this.dataGridViewReceiveCar);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -263,15 +296,15 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "ID of Cuatomer:";
             // 
-            // dataGridView2
+            // dataGridViewReceiveCar
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(6, 6);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(503, 289);
-            this.dataGridView2.TabIndex = 1;
+            this.dataGridViewReceiveCar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewReceiveCar.Location = new System.Drawing.Point(6, 6);
+            this.dataGridViewReceiveCar.Name = "dataGridViewReceiveCar";
+            this.dataGridViewReceiveCar.RowHeadersWidth = 51;
+            this.dataGridViewReceiveCar.RowTemplate.Height = 24;
+            this.dataGridViewReceiveCar.Size = new System.Drawing.Size(503, 289);
+            this.dataGridViewReceiveCar.TabIndex = 1;
             // 
             // label1
             // 
@@ -315,6 +348,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "Logout";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Attendant__Form
             // 
@@ -343,7 +377,7 @@
             this.groupBox4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewReceiveCar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -359,7 +393,7 @@
         private System.Windows.Forms.Label lbname;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridViewParkingCar;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView dataGridViewReceiveCar;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtIDCustomer;
         private System.Windows.Forms.Label label3;
@@ -376,5 +410,8 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtTicketseri;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnRandom;
     }
 }
