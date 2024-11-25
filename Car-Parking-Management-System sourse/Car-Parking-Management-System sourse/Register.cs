@@ -30,29 +30,9 @@ namespace Car_Parking_Management_System_sourse
                     count = Convert.ToInt32(temp);
                 }
             }
-            string firstname = txtFirstName.Text;
-            string lastname = txtLastName.Text;
-            string age = txtAge.Text;
-            string phonenumber = txtPhoneNumber.Text;
-            string user = txtUserRegister.Text;
-            string pass = txtPassRegister.Text;
-            using (StreamWriter swriter = new StreamWriter("Customer.txt", true))
-            {
-                if (temp == null)
-                {
-                    swriter.WriteLine("");
-                }
-                count++;
-                swriter.WriteLine(count);
-                swriter.WriteLine(firstname);
-                swriter.WriteLine(lastname);
-                swriter.WriteLine(age);
-                swriter.WriteLine(phonenumber);
-                swriter.WriteLine(user);
-                swriter.WriteLine(pass);
-                swriter.WriteLine("no request");
-                swriter.Flush();
-            }
+            count++;
+            Customer newCustomer= new Customer($"{count}", txtFirstName.Text, txtLastName.Text, Convert.ToInt32(txtAge.Text), txtPhoneNumber.Text, txtUserRegister.Text, txtPassRegister.Text, "no request");
+            newCustomer.WriteInfo(temp);
             string[] lines = File.ReadAllLines("Customer.txt");
             lines[0] = $"{count}";
             File.WriteAllLines("Customer.txt", lines);

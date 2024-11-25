@@ -1,4 +1,4 @@
-3
+5
 1
 Vu
 Nam
@@ -23,3 +23,19 @@ Phat
 phatdoan
 123
 Request Parking Space ID:VIP002
+4
+Nguyen
+Khoa
+21
+055555555
+khoanguyen
+123
+no request
+5
+Truong
+Sang
+29
+022222222
+tansang
+123
+Request Parking Space ID:COM002

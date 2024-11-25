@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 
@@ -21,6 +22,40 @@ namespace Car_Parking_Management_System_sourse
         public void changeInfo(string ticketseri)
         {
             this.ticketseri = ticketseri;
+        }
+        public void WriteInfo(string temp)
+        {
+            using (StreamWriter swriter = new StreamWriter("Customer.txt", true))
+            {
+                if (temp == null)
+                {
+                    swriter.WriteLine("");
+                }
+                swriter.WriteLine(Id);
+                swriter.WriteLine(Firstname);
+                swriter.WriteLine(Lastname);
+                swriter.WriteLine(Age);
+                swriter.WriteLine(Phonenumber);
+                swriter.WriteLine(Username);
+                swriter.WriteLine(Password);
+                swriter.WriteLine(ticketseri);
+                swriter.Flush();
+            }
+        }
+        public void WriteInfo()
+        {
+            using (StreamWriter swriter = new StreamWriter("Customer.txt"))
+            {
+                swriter.WriteLine(Id);
+                swriter.WriteLine(Firstname);
+                swriter.WriteLine(Lastname);
+                swriter.WriteLine(Age);
+                swriter.WriteLine(Phonenumber);
+                swriter.WriteLine(Username);
+                swriter.WriteLine(Password);
+                swriter.WriteLine(ticketseri);
+                swriter.Flush();
+            }
         }
         public void changeInfo()
         {

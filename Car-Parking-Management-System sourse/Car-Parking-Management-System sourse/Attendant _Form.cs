@@ -35,6 +35,7 @@ namespace Car_Parking_Management_System_sourse
             nameCustomerColum.HeaderText= "Name of Customer";
             dataGridViewParkingCar.Columns.Add(nameCustomerColum);
             DataGridViewTextBoxColumn numberplateColum = new DataGridViewTextBoxColumn();
+            numberplateColum.DataPropertyName = "numberplate";
             DataGridViewTextBoxColumn nameofcarColum = new DataGridViewTextBoxColumn();
             DataGridViewTextBoxColumn ticketandRequestColum = new DataGridViewTextBoxColumn();
             dataGridViewParkingCar.DataSource = customers;
