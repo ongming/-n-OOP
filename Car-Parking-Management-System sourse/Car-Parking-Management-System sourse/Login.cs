@@ -130,7 +130,7 @@ namespace Car_Parking_Management_System_sourse
                     if(username==attendants[i].Username && password == attendants[i].Password)
                     {
                         MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        Attendant__Form form = new Attendant__Form(attendants[i].Lastname + " " + attendants[i].Firstname,customerList);
+                        Attendant__Form form = new Attendant__Form(attendants[i].Lastname + " " + attendants[i].Firstname,customerList,parkingSpaces);
                         this.Hide();
                         form.ShowDialog();
                         this.Close();

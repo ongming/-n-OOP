@@ -13,6 +13,7 @@ namespace Car_Parking_Management_System_sourse
             this.ticketseri = ticketseri;
         }
         public string Ticketseri { get { return ticketseri; } set { ticketseri = value; } }
+        public string Fullname { get { return $"{Lastname} {Firstname} "; } }
         public override void addID(string id)
         {
             this.Id = id;

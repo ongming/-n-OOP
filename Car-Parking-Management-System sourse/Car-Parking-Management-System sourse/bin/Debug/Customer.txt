@@ -1,4 +1,4 @@
-2
+3
 1
 Vu
 Nam
@@ -14,4 +14,12 @@ Ky
 088888888
 kyvi
 123
-no request
+Request Parking Space ID:COM001
+3
+Doan
+Phat
+34
+011111111
+phatdoan
+123
+Request Parking Space ID:VIP002

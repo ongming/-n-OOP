@@ -93,7 +93,6 @@ namespace Car_Parking_Management_System_sourse
             }
 
         }
-
         private void btnSignParking_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < customers.Count; i++)
@@ -107,16 +106,17 @@ namespace Car_Parking_Management_System_sourse
                             parkingSpaces[j].changeInfo(txtNameCar.Text,txtNumberPlate.Text,"Wait...","Wait...");
                             customers[i].changeInfo($"Request Parking Space ID:{txtIDSpace.Text}");
                             MessageBox.Show("Please! Wait our Attendant reply your Request","System");
+                            dataGridviewParkingSpace.DataSource = null;
+                            dataGridviewParkingSpace.DataSource = parkingSpaces;
                             writeData();
                             return;
                         }
                     }                   
                     MessageBox.Show("ID of Parking Space is not exist!", "System", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;                   
+                    return;     
                 }
             }
         }
-
         private void txtSearchSpace_TextChanged(object sender, EventArgs e)
         {
             dataGridviewParkingSpace.DataSource = this.parkingSpaces.Where(p => p.Id_carparking.Contains(txtSearchSpace.Text)).ToList();

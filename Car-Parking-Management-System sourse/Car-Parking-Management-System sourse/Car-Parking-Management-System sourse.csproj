@@ -129,6 +129,12 @@
     <Compile Include="Manager_Form.Designer.cs">
       <DependentUpon>Manager_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Messenger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Messenger.Designer.cs">
+      <DependentUpon>Messenger.cs</DependentUpon>
+    </Compile>
     <Compile Include="ParkingSpace.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
