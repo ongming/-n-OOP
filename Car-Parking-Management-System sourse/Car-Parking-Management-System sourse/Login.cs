@@ -70,6 +70,7 @@ namespace Car_Parking_Management_System_sourse
                                                   cl.ReadLine(),
                                                   cl.ReadLine(),
                                                   cl.ReadLine(),
+                                                  cl.ReadLine(),
                                                   cl.ReadLine()));
                 }
             }

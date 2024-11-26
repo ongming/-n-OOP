@@ -48,39 +48,22 @@ namespace Car_Parking_Management_System_sourse
         }
         public void writeData()
         {
+            ParkingSpace.writeparkingdata(this.parkingSpaces);
             string count;
-            using (StreamWriter sw = new StreamWriter("ParkingSpace.txt"))
-            {
-                for (int i = 0; i < parkingSpaces.Count; i++)
-                {
-                    sw.WriteLine(parkingSpaces[i].Id_carparking);
-                    sw.WriteLine(parkingSpaces[i].Numberplate);
-                    sw.WriteLine(parkingSpaces[i].Name_car);
-                    sw.WriteLine(parkingSpaces[i].Status);
-                    sw.WriteLine(parkingSpaces[i].Cost);
-                    sw.WriteLine(parkingSpaces[i].Ticketseri);
-                }
-            }
             using (StreamReader sr=new StreamReader("Customer.txt"))
             {
                 count=sr.ReadLine();
             }
-
-            using (StreamWriter sw= new StreamWriter("Customer.txt"))
+            using (StreamWriter swriter = new StreamWriter("Customer.txt"))
             {
-                sw.WriteLine(count);
-                for (int i = 0; i < customers.Count; i++)
-                {
-                    sw.WriteLine(customers[i].Id);
-                    sw.WriteLine(customers[i].Firstname);
-                    sw.WriteLine(customers[i].Lastname);
-                    sw.WriteLine(customers[i].Age);
-                    sw.WriteLine(customers[i].Phonenumber);
-                    sw.WriteLine(customers[i].Username);
-                    sw.WriteLine(customers[i].Password);
-                    sw.WriteLine(customers[i].Ticketseri);
-                }
+                swriter.WriteLine(count);
+                swriter.Flush();
             }
+            for (int i = 0; i < customers.Count; i++)
+            {
+                customers[i].WriteInfo();
+            }
+
         }
         private void btnSignOut_Click(object sender, EventArgs e)
         {

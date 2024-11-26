@@ -31,7 +31,7 @@ namespace Car_Parking_Management_System_sourse
                 }
             }
             count++;
-            Customer newCustomer= new Customer($"{count}", txtFirstName.Text, txtLastName.Text, Convert.ToInt32(txtAge.Text), txtPhoneNumber.Text, txtUserRegister.Text, txtPassRegister.Text, "no request");
+            Customer newCustomer= new Customer($"{count}", txtFirstName.Text, txtLastName.Text, Convert.ToInt32(txtAge.Text), txtPhoneNumber.Text, txtUserRegister.Text, txtPassRegister.Text, "no","no request");
             newCustomer.WriteInfo(temp);
             string[] lines = File.ReadAllLines("Customer.txt");
             lines[0] = $"{count}";

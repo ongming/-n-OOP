@@ -143,10 +143,5 @@ namespace Car_Parking_Management_System_sourse
                 MessageBox.Show("Edit complete!", "System");
             }           
         }
-
-        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

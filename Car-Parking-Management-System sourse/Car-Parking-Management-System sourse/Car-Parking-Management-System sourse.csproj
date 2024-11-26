@@ -232,6 +232,7 @@
     <None Include="Resources\car1.png" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Resources\avatar-default-icon.png" />
   </ItemGroup>
   <ItemGroup>
@@ -239,6 +240,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image-removebg-preview %281%29.png" />
+=======
+    <None Include="Resources\tải xuống.png" />
+>>>>>>> 6acdcca107240c972faba5cae3f67db3af5f5603
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
